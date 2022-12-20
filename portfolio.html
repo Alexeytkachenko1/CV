@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/portfolio.min.css">
+</head>
+<body>
+    <header class="header container">
+        <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <svg class="menu-button-svg" width="30" height="30" aria-label="Переключатель мобильного меню">
+                <use class="mobile-open" href="./img/sprite.svg#mobile-open"></use>
+                <use class="mobile-close" href="./img/sprite.svg#mobile-close"></use>
+            </svg>
+        </button>
+        
+<nav class="header-nav" id="menu-container" data-menu>
+    <ul class="header-list list">
+        <li class="header-item"><a class="header-link header-link--current  link" href="#Home">Home</a></li>
+        <li class="header-item"><a class="header-link link" href="#About me">About me</a></li>
+        <li class="header-item"><a class="header-link link" href="#Skills">Skills</a></li>
+        <li class="header-item"><a class="header-link link" href="#Portfolio">Portfolio</a></li>
+        <li class="header-item"><a class="header-link link" href="#Contacts">Contacts</a></li>
+    </ul>
+</nav>
+
+    </header>
+    <main>
+        <!-- Hero -->
+        <div id="Home" class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <h1 class="hero-title">Alexey Tkachenko</h1>
+                    <h2 class="hero-subtitle">FE Developer
+                     29 years old, Kyiv</h2>
+                </div>
+                 <picture>
+                    <picture>
+                        <source srcset="./img/hero/hero-img-desktop.jpg 1x, ./img/hero/hero-img-desktop@2x.jpg 2x" media="(min-width:970px)">
+
+                        <source srcset="./img/hero/hero-img-mobile.jpg 1x, ./img/hero/hero-img-mobile@2x.jpg 2x" media="(min-width:320px)">
+
+                        <img class="hero-img" src="./img/hero/hero-img-desktop.jpg" alt="Web-studio">
+                    </picture>
+                 </picture>
+            </div>
+        </div>
+        <!-- About-me -->
+        <div class="about" id="About me">
+            <div class="container">
+                <h2 class="about-title">
+                    About me
+                </h2>
+                <p class="about-description">
+                    Hi, I'm Alexey – FE Developer. 
+                    I'm interested in layout and everything connected with it.
+                </p>
+             <p class="about-description">
+                I'm studying at courses "Full Stack Developer" and now I’m knowing almost everything about page-proofs and continue studying JS.  
+             </p>
+             <p class="about-description">
+                Ready to implement excellent projects
+                        with wonderful people. 
+             </p> 
+            </div>
+        </div>
+        <div id="Skills" class="skills">
+            <div class="container">
+                <h2 class="skills-header">Skills</h2>
+                <p class="skills-description">I work in such programs as</p>
+                <ul class="skills-list list">
+                    <li class="skills-item">
+                        <img class="skills-img" src="./img/skills/icon-visual-studio-code.png" alt="">
+                    <p class="skills-title">
+                        Visual Studio Code
+                    </p>
+                    <ul class="skills-svg-list list">
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star"></use>
+                        </svg></li>
+                    </ul>
+                </li>
+                    <li class="skills-item">
+                        <img class="skills-img" src="./img/skills/icon-figma.png" alt="">
+                    <p class="skills-title">
+                        Figma
+                    </p>
+                    <ul class="skills-svg-list list">
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star"></use>
+                        </svg></li>
+                    </ul>
+                </li>
+                    <li class="skills-item">
+                        <img class="skills-img" src="./img/skills/icon-git.png" alt="">
+                    <p class="skills-title">
+                            Git
+                    </p>
+                    <ul class="skills-svg-list list">
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                      
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star"></use>
+                        </svg></li>
+                    </ul>
+                </li>
+                    <li class="skills-item">
+                        <img class="skills-img" src="./img/skills/icon-terminal.png" alt="">
+                    <p class="skills-title">
+                        Terminal
+                    </p>
+                    <ul class="skills-svg-list list">
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star-black"></use>
+                        </svg></li>
+                        <li class="skills-svg-item">  <svg class="skills-svg" >
+                            <use href="./img/sprite.svg#icon-star"></use>
+                        </svg></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <div id="Portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="portfolio-header">Portfolio</h2>
+                <div class="portfolio-wrapper">
+                    <ul class="portfolio-list list">
+                        <li class="portfolio-item">
+                            <picture>
+                                <source srcset="./img/portfolio/examples-img-desktop-1.png 1x, ./img/portfolio/examples-img-desktop-1@2x.png 2x" media="(min-width:970px)">
+    
+                                <source srcset="./img/portfolio/examples-img-mobile-1.png 1x, ./img/portfolio/examples-img-mobile-1@2x.png 2x" media="(min-width:320px)">
+    
+                                <img src="./img/portfolio/examples-img-desktop-1.png" alt="Web-studio">
+                            </picture>
+                        </li>
+                   
+                        <li class="portfolio-item">
+                            <picture>
+                                <source srcset="./img/portfolio/examples-img-desktop-3.png 1x, ./img/portfolio/examples-img-desktop-3@2x.png 2x" media="(min-width:970px)">
+    
+                                <source srcset="./img/portfolio/examples-img-mobile-3.png 1x, ./img/portfolio/examples-img-mobile-3@2x.png 2x" media="(min-width:320px)">
+    
+                                <img src="./img/portfolio/examples-img-desktop-3.png" alt="Web-studio">
+                            </picture>
+                        </li>
+                        <li class="portfolio-item">
+                            <picture>
+                                <source srcset="./img/portfolio/examples-img-desktop-2.png 1x, ./img/portfolio/examples-img-desktop-2@2x.png 2x" media="(min-width:970px)">
+    
+                                <source srcset="./img/portfolio/examples-img-mobile-2.png 1x, ./img/portfolio/examples-img-mobile-2@2x.png 2x" media="(min-width:320px)">
+    
+                                <img src="./img/portfolio/examples-img-desktop-2.png" alt="Web-studio">
+                            </picture>
+                        </li>
+                    </ul>
+                    <a class="portfolio-link link" href="https://alexeytkachenko1.github.io/Homework-8/Studiya.html">Web-studio</a>
+                </div>
+
+<div class="portfolio-wrapper">
+
+    <picture>
+        <source srcset="./img/portfolio/examples-img-desktop-4.png 1x, ./img/portfolio/examples-img-desktop-4@2x.png 2x" media="(min-width:970px)">
+
+        <source srcset="./img/portfolio/examples-img-mobile-4.png 1x, ./img/portfolio/examples-img-mobile-4@2x.png 2x" media="(min-width:320px)">
+
+        <img src="./img/portfolio/examples-img-desktop-4.png" alt="Web-studio">
+    </picture>
+        <a class="portfolio-link link" href="https://alexeytkachenko1.github.io/Online-courses/Homepage.html">Online Courses</a>
+
+                </div>
+            </div>
+        </div>
+
+
+<div id="Contacts" class="contacts">
+    <div class="container">
+        <h2 class="contacts-header">Contacts</h2>
+        <h2 class="contacts-title">Want to know more or just chat? 
+            You are welcome!</h2>
+            <button class="contacts-button" type="button" data-open-modal>Send message</button>
+
+<div class="backdrop is-hidden" data-backdrop>
+    <div class="modal">
+
+<form action="#" class="contact-form" autocomplete="on">
+<h2 class="contact-form__header">Please leave your contact details</h2>
+
+<label class="contact-form__field">
+<input type="text" class="contact-form__input" name="user-name" autofocus required placeholder=" ">
+<svg class="contact-form__svg">
+    <use href="./img/sprite.svg#icon-name"></use>
+</svg>
+<span class="contact-form__label">Name*
+</span>
+</label>
+
+<label class="contact-form__field">
+    <input type="tel" class="contact-form__input" name="user-phone" required placeholder=" ">
+    <svg class="contact-form__svg">
+        <use href="./img/sprite.svg#icon-phone"></use>
+    </svg>
+    <span class="contact-form__label">Phone*
+    </span>
+</label>
+
+<label class="contact-form__field">
+    <input type="email" class="contact-form__input" name="user-email" required placeholder=" ">
+    <svg class="contact-form__svg">
+        <use href="./img/sprite.svg#icon-email"></use>
+    </svg>
+    <span class="contact-form__label">E-mail*
+    </span>
+</label>
+
+<div class="contact-form__field">
+    <textarea class="contact-form__textarea-input" name="contact-form-comment" id="contact-form-comment" rows="10" placeholder=" "></textarea>
+    <label class="contact-form__textarea-label" for="contact-form-comment">Comment</label>
+  </div>
+
+  <label class="contact-form__checkbox-field">
+    <input class="contact-form__checkbox visually-hidden" type="checkbox" value="Соглашаюсь с рассылкой и принимаю Условия договора" required>
+<span class="contact-form__checkbox-icon"></span>
+<span class="contact-form__checkbox-title">I agree to the newsletter and accept the</span>
+<a class="contact-form__checkbox-link" href="">the terms of the contract</a>
+  </label>
+  <button type="submit" class="contact-form__submit contacts-button">Submit</button>
+</form>
+
+<button class="contact-form__close-button" data-close-modal>
+    <svg class="contact-form__close-svg">
+        <use href="./img/sprite.svg#icon-x"></use>
+    </svg>
+</button>
+    </div>
+</div>
+            <ul class="contacts-list list">
+                <li class="contacts-item"><a class="contacts-link" href="https://github.com/Alexeytkachenko1">
+                    <svg class="contacts-svg" >
+                        <use href="./img/sprite.svg#icon-github"></use>
+                    </svg>
+                </a></li>
+                <li class="contacts-item"><a class="contacts-link" href="https://www.linkedin.com/in/alexeytkachenko1">
+                    <svg class="contacts-svg">
+                        <use href="./img/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                </a></li>
+                <li class="contacts-item"><a class="contacts-link" href="https://t.me/+4ABZW3ljxqwwOWVi">
+                    <svg class="contacts-svg">
+                        <use href="./img/sprite.svg#icon-telegram"></use>
+                    </svg>
+                </a></li>
+                <li class="contacts-item"><a class="contacts-link" href="https://www.facebook.com/tkachenkoalexey1">
+                    <svg class="contacts-svg">
+                        <use href="./img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a></li>
+            </ul>
+
+            <p class="contacts-description">Find me on
+                GitHub, LinkedIn, Telegram, Facebook</p>
+    </div>
+</div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/menu.js"></script>
+    <script src="./js/anchors.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>

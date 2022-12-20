@@ -1,0 +1,55 @@
+@media screen and (min-width:320px) and (max-width:969px){
+    .hero{
+       padding-bottom: 20px;
+        &-title{
+            position: absolute;
+            top: 40px;
+            width: 120px;
+            @include font(700,47px,58px);
+    color: $title-text-color;
+        }
+        &-subtitle{
+            margin-top: 60px;
+            margin-bottom: 20px;
+            @include font(400,18px,22px);
+color: $title-text-color;
+width: 120px;
+        }
+        &-img{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+// -------- 970px -------//
+@media screen and (min-width:970px) {
+    .hero{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        &-wrapper{
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        &-title{
+            @include font (700,47px,59px);
+color: $title-text-color;
+width: 120px;
+        }
+        &-subtitle{
+            @include font(400,18px,22px);
+
+            color: $title-text-color;
+            width: 150px;
+            // margin-top: 50px;
+            margin-left: 300px;
+        }
+        &-img{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+

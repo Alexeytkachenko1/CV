@@ -1,0 +1,83 @@
+@media screen and (min-width:320px) and (max-width:969px){
+    .portfolio{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        &-header{
+            @include font (700,34px,42px);
+            text-align: center;
+            color: $title-text-color;
+            margin-bottom: 10px;
+        }
+        &-wrapper{
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+            margin-bottom: 15px;
+        }
+        &-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+            
+        }
+        &-item{
+            margin:5px 20px;
+        }
+        &-link{
+            @include font(400,18px,22px);
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            color: #000000;
+        }
+
+    }
+}
+// -------- 970px -------//
+@media screen and (min-width:970px) {
+    .portfolio{
+padding-top: 20px;
+padding-bottom: 20px;
+&-header{
+    @include font(700,34px,42px);
+text-align: center;
+color: $title-text-color;
+margin-bottom: 20px;
+}
+&-wrapper{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    &:not(:last-child){
+
+        margin-bottom: 25px;
+    }
+   
+}
+&-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  
+}
+&-item{
+    margin:5px 40px;
+    
+}
+
+
+&-link{
+    @include font(400,18px,22px);
+    display: block;
+text-align: center;
+text-decoration-line: underline;
+color:$title-text-color;
+margin-top: 10px;
+
+}
+}
+
+}  

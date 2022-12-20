@@ -1,0 +1,14 @@
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    // position: relative;
+   
+    @media screen and (min-width:380px) and (max-width:969px) {
+        width: 380px;
+        // outline: 1px solid blue;
+    }
+    @media screen and (min-width:970px) {
+        width: 970px;
+        // outline: 1px solid blue;
+    }
+}
